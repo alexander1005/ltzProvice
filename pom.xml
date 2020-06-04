@@ -9,8 +9,8 @@
         <version>Greenwich.SR5</version>
         <relativePath/>
     </parent>
-    <groupId>ltzProvice</groupId>
-    <artifactId>proviceServer</artifactId>
+    <groupId>ltzprovice</groupId>
+    <artifactId>proviceserver</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>

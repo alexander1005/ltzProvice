@@ -6,7 +6,7 @@ FROM java:8
 # 作者
 MAINTAINER liaotianzheng <liaotianzheng@qq.com>
 VOLUME /work/logs/config:/logs
-ADD ltzserver-1.0-SNAPSHOT.jar ltzConfig.jar
-EXPOSE 9999
-RUN bash -c "touch /ltzConfig.jar"
-ENTRYPOINT ["java", "-jar", "ltzConfig.jar","> /logs/ltzConfig.log"]
+ADD proviceserver-1.0-SNAPSHOT.jar proviceserver.jar
+EXPOSE 9998
+RUN bash -c "touch /proviceserver.jar"
+ENTRYPOINT ["java", "-jar", "proviceserver.jar","> /logs/ltzProvice.log"]
